@@ -4,18 +4,12 @@
     <v-main
       class="blue-grey darken-4"
     >
-      <v-container
-      >
+      <v-container class="mx-auto">
         <v-row>
           <v-col>
-            <v-card
-              flat
-              dark
-              class="blue-grey darken-4"
-            >
-              <v-card-subtitle class="text-h2 body__text"> Hi There 👋 </v-card-subtitle>
-              <v-card-title class="text-h1 body__h1"> SIMON <br> NOZAKI </v-card-title>
-            </v-card>
+            <h2 class="body__subtitle"> Hi, There 👋 </h2>
+            <h1 class="body__title"> SIMON <br> NOZAKI </h1>
+            <font-awesome-icon icon="fa-brands fa-twitter" />
           </v-col>
           <v-col>
             <Nuxt />

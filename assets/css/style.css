@@ -3,10 +3,14 @@
   text-decoration: none;
 }
 
-.body__h1 {
+.body__title {
   font-family: 'JetBrains Mono', monospace;
+  /* あとでまとめて継承するようにさせたい */
+  color: #fafafa;
+  font-size: 6rem;
 }
 
-.body__text {
+.body__subtitle {
   color: #fafafa;
+  font-size: 4rem;
 }

@@ -4,12 +4,9 @@
     dark
     class="blue-grey darken-4"
   >
-    <v-card-text>
+    <p>
       ソフトウェアエンジニアです。
-    </v-card-text>
-    <v-card-text>
-      あとでここにいっぱいアイコン並べる
-    </v-card-text>
+    </p>
   </v-card>
 </template>
 
