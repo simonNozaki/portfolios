@@ -1,8 +1,3 @@
-.navigation-bar__link {
-  color: #263238;
-  text-decoration: none;
-}
-
 .body__title {
   font-family: 'JetBrains Mono', monospace;
   /* あとでまとめて継承するようにさせたい */
@@ -13,4 +8,17 @@
 .body__subtitle {
   color: #fafafa;
   font-size: 4rem;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.body__heading {
+  color: #fafafa;
+  font-size: 2rem;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.body__text {
+  color: #fafafa;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
