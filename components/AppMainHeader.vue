@@ -8,38 +8,23 @@
       <v-tabs-slider color="deep-purple darken-4"></v-tabs-slider>
       <v-tab
         to="/"
-        class="navigation-bar__link"
+        class="navigation-bar__link body__text"
       >
-        Home
+        <v-icon> mdi-home </v-icon>
       </v-tab>
       <v-tab
         to="/about"
-        class="navigation-bar__link"
+        class="navigation-bar__link body__text"
       >
         About
       </v-tab>
-      <v-tab>
-        <a
-          href="https://twitter.com/catch_all_balls"
-          class="navigation-bar__link"
-        >
-          <v-icon> mdi-twitter </v-icon>
-        </a>
-      </v-tab>
-      <v-tab>
-        <a
-          href="https://github.com/simonnozaki"
-          class="navigation-bar__link"
-        >
-        <v-icon> mdi-github </v-icon>
-        </a>
-      </v-tab>
-      <v-tab>          
-        <a
-          href="https://qiita.com/s_9_i"
-          class="navigation-bar__link"
-        > Qiita </a>
-      </v-tab>
-    </v-tabs>    
+    </v-tabs>
   </v-app-bar>
 </template>
+
+<style scoped>
+.navigation-bar__link {
+  color: #263238;
+  text-decoration: none;
+}
+</style>
