@@ -42,20 +42,13 @@ export default {
   ],
   googleFonts: {
     families: {
-      JetBrainsMono: [500]
+      JetBrainsMono: [500],
+      Lato: [300, 400],
     }
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['nuxt-fontawesome'],
-  fontawesome: {
-    imports: [
-      {
-        set: '@fortawesome/free-solid-svg-icons',
-        icons: ['fas'],
-      },
-    ],
-  },
+  modules: [],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
