@@ -1,0 +1,166 @@
+<template>
+  <div class="body__text">
+    <p>
+      趣味で作っていたら溜まっていたもの。
+    </p>
+    <v-expansion-panels
+      accordion
+      multiple
+      class="blue-grey darken-2"
+    >
+      <v-expansion-panel>
+        <v-expansion-panel-header> アーキテクチャ </v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <v-card
+            dark
+            flat
+            class="blue-grey darken-4 mt-2"
+          >
+            <v-simple-table class="blue-grey darken-2 body__text">
+              <tbody>
+                <tr>
+                  <td>
+                    <LinkButton to="https://github.com/simonnozaki/color-domain" text="color-domain" />
+                  </td>
+                  <td>
+                    <FixedImg src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" />
+                  </td>
+                  <td> 色を混ぜるドメインの、DDDによるアーキテクチャ案。 </td>
+                </tr>
+                <tr>
+                  <td>
+                    <LinkButton to="https://github.com/simonnozaki/nest-todo" text="next-todo" />
+                  </td>
+                  <td>
+                    <FixedImg src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" />
+                  </td>
+                  <td> ドメイン駆動設計の考え方に基づくTODO管理アプリのアーキテクチャ案 </td>
+                </tr>
+                <tr>
+                  <td>
+                    <LinkButton to="https://github.com/simonnozaki/oapi" text="oapi" />
+                  </td>
+                  <td>
+                    <FixedImg src="https://www.vectorlogo.zone/logos/serverless/serverless-icon.svg" alt="serverless" />
+                    <FixedImg src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" />
+                  </td>
+                  <td> serverless frameworkをベースにバリデーションのスキーマ定義をそのままOpenAPIの仕様にしている。 </td>
+                </tr>
+              </tbody>
+            </v-simple-table>
+          </v-card>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+      <v-expansion-panel>
+        <v-expansion-panel-header> ツール、ライブラリ </v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <v-card
+            dark
+            flat
+            class="blue-grey darken-4 mt-2"
+          >
+            <v-simple-table class="blue-grey darken-2 body__text">
+              <tbody>
+                <tr>
+                  <td>
+                    <LinkButton to="https://www.npmjs.com/package/@snozaki/resultify" text="@snozaki/resultify" />
+                  </td>
+                  <td>
+                    <FixedImg src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" />
+                  </td>
+                  <td> kotlin.Resultやscala.util.Tryに影響を受けた処理ラッパライブラリ。 </td>
+                </tr>
+                <tr>
+                  <td>
+                    <LinkButton to="https://www.npmjs.com/package/attemptify" text="attemptify" />
+                  </td>
+                  <td>
+                    <FixedImg src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" />
+                  </td>
+                  <td> resilience4jやspring-retryのようなビルダーベースの使い心地を追求したリトライライブラリ。 </td>
+                </tr>
+              </tbody>
+            </v-simple-table>
+          </v-card>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+      <v-expansion-panel>
+        <v-expansion-panel-header> システムプログラミング </v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <v-card
+            dark
+            flat
+            class="blue-grey darken-4 mt-2"
+          >
+            <v-simple-table class="blue-grey darken-2 body__text">
+              <tbody>
+                <tr>
+                  <td>
+                    <LinkButton to="https://github.com/simonnozaki/koy" text="koy" />
+                  </td>
+                  <td>
+                    <FixedImg src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" />
+                  </td>
+                  <td> "K"otlin t"oy" programming language。 式指向の軽量プログラミング言語。基本的なリテラル型と手続きをサポートする。 </td>
+                </tr>
+                <tr>
+                  <td>
+                    <LinkButton to="https://github.com/simonnozaki/lisby" text="lisby" />
+                  </td>
+                  <td>
+                    <FixedImg src="https://www.vectorlogo.zone/logos/ruby-lang/ruby-lang-icon.svg" alt="ruby" />
+                  </td>
+                  <td> よくあるLispインタプリタ。 </td>
+                </tr>
+              </tbody>
+            </v-simple-table>
+          </v-card>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+      <v-expansion-panel>
+        <v-expansion-panel-header> ウェブ </v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <v-card
+            dark
+            flat
+            class="blue-grey darken-4 mt-2"
+          >
+            <v-simple-table class="blue-grey darken-2 body__text">
+              <tbody>
+                
+                <tr>
+                  <td>
+                    <LinkButton to="https://github.com/simonnozaki/portfolios" text="portfolio" />
+                  </td>
+                  <td>
+                    <FixedImg src="https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-icon.svg" alt="nuxt" />
+                  </td>
+                  <td> このウェブサイトのソースコード。 </td>
+                </tr>
+              </tbody>
+            </v-simple-table>
+          </v-card>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+      <v-expansion-panel>
+        <v-expansion-panel-header> その他 </v-expansion-panel-header>
+        <v-expansion-panel-content>
+          <v-card
+            dark
+            flat
+            class="blue-grey darken-2"
+          >
+            <v-card-title> 状態管理で理解するKotlinのsealed classおよび周辺機能 </v-card-title>
+            <v-card-actions>
+              <LinkButton to="https://speakerdeck.com/simonnozaki/zhuang-tai-guan-li-teli-jie-surukotlinno-sealed-classoyohizhou-bian-ji-neng" text="Speaker Deck"/>
+            </v-card-actions>
+            <v-divider></v-divider>
+            <v-card-text>
+              kotlin / sealed classの特徴を、ドメインモデリングを交えて共有。
+            </v-card-text>
+          </v-card>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+    </v-expansion-panels>    
+  </div>
+</template>
