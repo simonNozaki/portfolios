@@ -1,6 +1,6 @@
 export default {
   router: {
-    base: 'portfolios'
+    base: '/portfolios/'
   },
 
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
