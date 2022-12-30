@@ -1,3 +1,14 @@
+/* BEMライクに継承させてDRYに */
+.body {
+  font-family: 'Noto Sans Japanese', monospace;
+  color: #fafafa;
+}
+
+.body--title {
+  color: #1de9b6;
+  font-size: 6rem;
+}
+
 .body__title {
   font-family: 'Noto Sans Japanese', monospace;
   /* あとでまとめて継承するようにさせたい */
@@ -29,8 +40,12 @@
   font-weight: 300;
 }
 
-.navigation__link-text {
+.navigation_link-text {
   color: #263238;
   font-family: 'Noto Sans Japanese', Arial, Helvetica, sans-serif;
   font-weight: 400;
+}
+
+.navigation_link-text__active {
+  color: #fafafa;
 }
