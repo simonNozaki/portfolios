@@ -1,24 +1,36 @@
 .body__title {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Noto Sans Japanese', monospace;
   /* あとでまとめて継承するようにさせたい */
-  color: #fafafa;
+  color: #1de9b6;
   font-size: 6rem;
 }
 
 .body__subtitle {
   color: #fafafa;
   font-size: 4rem;
-  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans Japanese', Arial, Helvetica, sans-serif;
 }
 
 .body__heading {
-  color: #fafafa;
+  color: #1de9b6;
   font-size: 2rem;
-  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans Japanese', Arial, Helvetica, sans-serif;
 }
 
 .body__text {
   color: #fafafa;
-  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans Japanese', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.body__link-text {
+  color: #1de9b6;
+  font-family: 'Noto Sans Japanese', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.navigation__link-text {
+  color: #263238;
+  font-family: 'Noto Sans Japanese', Arial, Helvetica, sans-serif;
   font-weight: 400;
 }
