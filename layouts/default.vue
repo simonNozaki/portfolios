@@ -3,8 +3,8 @@
     <AppNavigationBar />
     <v-main class="blue-grey darken-4">
       <v-container class="mx-auto">
-        <v-row>
-          <v-col>
+        <v-row no-gutters>
+          <v-col sm="6">
             <h2 class="body__subtitle">Hi, There 👋</h2>
             <h1 class="body__title">SIMON NOZAKI</h1>
             <v-card flat dark class="blue-grey darken-4">
