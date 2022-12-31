@@ -1,10 +1,8 @@
 <template>
   <v-tab
-    nuxt
-    link
     :to="to"
     class="navigation_link-text"
-    active-class="navigation_link-text__active"
+    style="text-transform: none;"
   >
     {{ text }}
   </v-tab>
