@@ -9,10 +9,14 @@
             <h1 class="body__title">SIMON NOZAKI</h1>
             <v-card flat dark class="blue-grey darken-4">
               <a href="https://twitter.com/catch_all_balls" class="ma-2">
-                <v-icon> mdi-twitter </v-icon>
+                <v-chip>
+                  <v-icon> mdi-twitter </v-icon>
+                </v-chip>
               </a>
               <a href="https://github.com/simonnozaki" class="ma-2">
-                <v-icon> mdi-github </v-icon>
+                <v-chip>
+                  <v-icon> mdi-github </v-icon>
+                </v-chip>
               </a>
               <a href="https://qiita.com/s_9_i" class="ma-2 body__text">
                 <v-chip color="green" text-color="white"> Qiita </v-chip>
