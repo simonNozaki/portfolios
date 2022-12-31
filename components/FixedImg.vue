@@ -1,17 +1,18 @@
 <template>
-  <img
-    :src="src"
-    :alt="alt"
-    height="20"
-    width="20"
-  />
+  <img :src="src" :alt="alt" height="20" width="20" />
 </template>
 
 <script>
 export default {
   props: {
-    src: String,
-    alt: String
-  }
+    src: {
+      type: String,
+      default: 'NOT FOUND',
+    },
+    alt: {
+      type: String,
+      default: 'NOT FOUND',
+    },
+  },
 }
 </script>

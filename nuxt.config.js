@@ -1,6 +1,6 @@
 export default {
   router: {
-    base: '/portfolios/'
+    base: '/portfolios/',
   },
 
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -22,9 +22,7 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -47,7 +45,7 @@ export default {
   googleFonts: {
     families: {
       NotoSansJapanese: [300, 400, 500],
-    }
+    },
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -56,8 +54,7 @@ export default {
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
-    theme: {
-    },
+    theme: {},
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -65,6 +62,6 @@ export default {
 
   server: {
     port: 3300,
-    host: '0.0.0.0'
-  }
+    host: '0.0.0.0',
+  },
 }
