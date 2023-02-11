@@ -8,7 +8,7 @@
             <h2 class="body__subtitle">Hej,</h2>
             <h1 class="body__title">SIMON NOZAKI</h1>
             <v-card flat dark class="blue-grey darken-4">
-              <a href="https://twitter.com/catch_all_balls" class="ma-2">
+              <a href="https://twitter.com/serum_vision" class="ma-2">
                 <v-chip>
                   <v-icon> mdi-twitter </v-icon>
                 </v-chip>
